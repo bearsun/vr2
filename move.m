@@ -1,4 +1,4 @@
-function [room, heading] = move( room, heading )
+function room = move( room, heading )
 %MOVE function move 1-step!
 
 % a big decision tree!

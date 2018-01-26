@@ -10,7 +10,7 @@ room = input('room?');
 heading = input('heading?');
 figure;
 while heading %0 to quit
-    [room, ~] = move(room, heading);
+    room = move(room, heading);
     imagesc(map == room);
     heading = input('heading?');
 end
